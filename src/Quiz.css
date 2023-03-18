@@ -82,25 +82,19 @@ button {
   font-size: 16px;
   color: #ffffff;
   background-color: #252d4a;
-  border-radius: 15px;
+  border-radius: 10px;
   display: flex;
   padding: 5px;
   justify-content: flex-start;
   align-items: center;
-  border: 5px solid #234668;
+  border: 2px solid #234668;
   cursor: pointer;
+  margin-bottom: 5px;
 }
 
-.correct {
-  background-color: #2f922f;
-}
-
-.incorrect {
-  background-color: #ff3333;
-}
 
 button:hover {
-  background-color: #555e7d;
+  background-color: #353535;
 }
 
 button:focus {
